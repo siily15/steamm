@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-1 bg-secondaryBlue mx-40">
+  <div class="flex flex-1 bg-secondaryBlue m-40 pt- mt-8 bg ">
     <div class=" px-4 py-4 border-r-2 border-navy-500 hover:bg-blue-800">
       <span class="text-white ">Sinu Pood</span>
     </div>
