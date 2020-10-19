@@ -16,7 +16,7 @@
       <span class="text-white">Labor</span>
     </div>
     <div class="ml-auto p-2" >
-      <input class="bg-blue-800 bg-blue-800 border-2 border-gray-800 rounded " type="text" name="search" placeholder="otsi poest.." />
+      <input class=" bg-blue-800 border-2 border-gray-800 rounded " type="text" name="search" placeholder="otsi poest.." />
     </div>
   </div>
 </template>
