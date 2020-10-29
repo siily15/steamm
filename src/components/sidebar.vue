@@ -1,57 +1,45 @@
 <template>
-  <img
-    src="https://steamstore-a.akamaihd.net/public/images//gift/steamcards_promo_02.png"
-    alt="Steam gift cards"
-  />
-  <div
-    class="uppercase text-gray-200 flex flex-col text-left ml-24 mt-1 text-sm"
-  >
-    KINKEKAARDID
-    <a href="#" class="text-blue-500 hover:text-white">Nüüd on olemas</a>
-  </div>
-  <div
-    class="uppercase text-gray-200 flex flex-col text-left ml-24 mt-1 text-sm"
-  >
-    SOOVITUSED
-    <a href="#" class="text-blue-500 hover:text-white">Sõprade Poolt</a>
-    <a href="#" class="text-blue-500 hover:text-white">Kuraatorite poolt</a>
-    <a href="#" class="text-blue-500 hover:text-white">Märksõnad</a>
-  </div>
-  <div
-    class="uppercase text-gray-200 flex flex-col text-left ml-24 mt-1 text-sm"
-  >
-    AVASTAMISE JÄRJEKORD
-    <a href="#" class="text-blue-500 hover:text-white">Soovitused</a>
-    <a href="#" class="text-blue-500 hover:text-white">uued väljaanded</a>
-  </div>
-  <div
-    class="uppercase text-gray-200 flex flex-col text-left ml-24 mt-1 text-sm"
-  >
-    KATEGOORIAD
-    <a href="#" class="text-blue-500 hover:text-white">enimmüüdud</a>
-    <a href="#" class="text-blue-500 hover:text-white">uued väljaanded</a>
-    <a href="#" class="text-blue-500 hover:text-white">tulemas</a>
-    <a href="#" class="text-blue-500 hover:text-white">eripakkumised</a>
-    <a href="#" class="text-blue-500 hover:text-white">Virtuaalne reaalsus</a>
-    <a href="#" class="text-blue-500 hover:text-white">kontroller sõbralik</a>
-  </div>
-  <div
-    class="uppercase text-gray-200 flex flex-col text-left ml-24 mt-1 text-sm"
-  >
-    ŽANRID
-    <a href="#" class="text-blue-500 hover:text-white">tasuta mängida</a>
-    <a href="#" class="text-blue-500 hover:text-white">varajane ligipääs</a>
-    <a href="#" class="text-blue-500 hover:text-white">Tegevus</a>
-    <a href="#" class="text-blue-500 hover:text-white">Seiklus</a>
-    <a href="#" class="text-blue-500 hover:text-white">Juhuslik</a>
-    <a href="#" class="text-blue-500 hover:text-white">inde</a>
-    <a href="#" class="text-blue-500 hover:text-white"
-      >Massiivselt mitmikmäng</a
-    >
-    <a href="#" class="text-blue-500 hover:text-white">Võidusõit</a>
-    <a href="#" class="text-blue-500 hover:text-white">RPG</a>
-    <a href="#" class="text-blue-500 hover:text-white">Simulatsioon</a>
-    <a href="#" class="text-blue-500 hover:text-white">Sport</a>
-    <a href="#" class="text-blue-500 hover:text-white">Strateegia</a>
-  </div>
+  <img src="https://store.cloudflare.steamstatic.com/public/images//gift/steamcards_promo_02.png" alt="" srcset="">
+  <ul class="uppercase text-sm text-gray-500 mt-6">Kinkekaardid
+      <li class="normal-case flex items-center text-blue-500"><span class="h-4 w-4 inline-block mr-2"></span>Nüüd on olemas</li>
+  </ul>
+  <ul class="uppercase text-sm text-gray-500 mt-6">Soovitused
+      <li class="normal-case flex items-center text-blue-500"><span class="bg-icons h-4 w-4 inline-block mr-2"></span>Sõprade järgi</li>
+      <li class="normal-case flex items-center text-blue-500"><span class="bg-icons bg-curators h-4 w-4 inline-block mr-2"></span>Kuraatorid</li>
+      <li class="normal-case flex items-center text-blue-500"><span class="bg-icons bg-tags h-4 w-4 inline-block mr-2"></span>Tagid</li>
+  </ul>
+  <ul class="uppercase text-sm text-gray-500 mt-6">Avastammise järjekord
+      <li class="normal-case flex items-center text-blue-500"><span class="bg-icons bg-reccomendations h-4 w-4 inline-block mr-2"></span>Soovitused</li>
+      <li class="normal-case flex items-center text-blue-500"><span class="bg-icons bg-new h-4 w-4 inline-block mr-2"></span>Uued väljaanded</li>
+  </ul>
+  <ul class="uppercase text-sm text-gray-500 mt-6">Kategooriad
+      <li class="normal-case flex items-center text-blue-500"><span class="bg-icons bg-sales h-4 w-4 inline-block mr-2"></span>Enimüüdud</li>
+      <li class="normal-case flex items-center text-blue-500"><span class="bg-icons bg-realise  h-4 w-4 inline-block mr-2"></span>Uued väljaanded</li>
+      <li class="normal-case flex items-center text-blue-500"><span class="bg-icons bg-upcoming  h-4 w-4 inline-block mr-2"></span>Tulemas</li>
+      <li class="normal-case flex items-center text-blue-500"><span class="bg-icons bg-special  h-4 w-4 inline-block mr-2"></span>Eripakkumused</li>
+      <li class="normal-case flex items-center text-blue-500"><span class="bg-icons bg-vitual  h-4 w-4 inline-block mr-2"></span>Virtuualne reaalsus</li>
+      <li class="normal-case flex items-center text-blue-500"><span class="bg-icons bg-controller  h-4 w-4 inline-block mr-2"></span>Kontroller sõbralik</li>
+  </ul>
+ <ul class="uppercase text-sm text-gray-500 mt-6">ŽANRID
+      <li class="normal-case flex items-center text-blue-500"><span class=" h-4 w-4 inline-block mr-2"></span>Tasuta mängud</li>
+      <li class="normal-case flex items-center text-blue-500"><span class=" bg-curators h-4 w-4 inline-block mr-2"></span>varajane ligipääs</li>
+      <li class="normal-case flex items-center text-blue-500"><span class=" h-4 w-4 inline-block mr-2"></span>Tegevus</li>
+      <li class="normal-case flex items-center text-blue-500"><span class=" h-4 w-4 inline-block mr-2"></span>Seiklus</li>
+      <li class="normal-case flex items-center text-blue-500"><span class=" h-4 w-4 inline-block mr-2"></span>Juhuslik</li>
+      <li class="normal-case flex items-center text-blue-500"><span class=" h-4 w-4 inline-block mr-2"></span>Inde</li>
+      <li class="normal-case flex items-center text-blue-500"><span class=" h-4 w-4 inline-block mr-2"></span>Msiivselt mitmemäng</li>
+      <li class="normal-case flex items-center text-blue-500"><span class=" h-4 w-4 inline-block mr-2"></span>Võidusõit</li>
+      <li class="normal-case flex items-center text-blue-500"><span class=" h-4 w-4 inline-block mr-2"></span>Rpg</li>
+      <li class="normal-case flex items-center text-blue-500"><span class=" h-4 w-4 inline-block mr-2"></span>Simulatsioon</li>
+      <li class="normal-case flex items-center text-blue-500"><span class=" h-4 w-4 inline-block mr-2"></span>Sport</li>
+      <li class="normal-case flex items-center text-blue-500"><span class=" h-4 w-4 inline-block mr-2"></span>Strateegia</li>
+  </ul>
 </template>
+
+<script>
+export default {
+}
+</script>
+
+<style>
+</style>

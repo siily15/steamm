@@ -1,6 +1,6 @@
 <template>
    <primary-nav />
-  <div class="grid grid-cols-main mt-8 gap-4">
+  <div class="grid grid-cols-main mt-8 gap-4 max-screen-xl mx-auto">
     <div>
       <sidebar />
     </div>
